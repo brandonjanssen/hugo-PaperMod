@@ -5,13 +5,14 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.101.0"
+  HUGO_VERSION = "0.103.1"
+#   HUGO_VERSION = "0.101.0"
 
-[[plugins]]
-  package = "netlify-plugin-cypress"
+# [[plugins]]
+#   package = "netlify-plugin-cypress"
 
-  [plugins.inputs.postBuild]
-    enable = true
+#   [plugins.inputs.postBuild]
+#     enable = true
 
-  [plugins.inputs]
-    enable = false
+#   [plugins.inputs]
+#     enable = false
