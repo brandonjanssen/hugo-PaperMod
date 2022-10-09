@@ -22,11 +22,12 @@
 .hljs-number,
 .hljs-params,
 .hljs-type {
-    color: #e7ce56;
+    color: #f0cd1e;
 }
 
 .hljs-attribute {
-    color: #ee7c2b;
+    /* color: #ff0800; */
+    color: #ff7e23;
 }
 
 .hljs-addition,

@@ -18,15 +18,18 @@
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --hljs-bg: rgb(46, 46, 51);
-    --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
+    --theme: #00121F;
+    --entry: #08151E;
+    --primary: #00E0CA;
+    --secondary: #406666;
+    --tertiary: #061A28;
+
+    /* This is for text color not headings */
+    --content: #C4CAE3;
+    --hljs-bg: #203849;
+    /* --hljs-bg: #10293b; */
+    --code-bg: #0a2233;
+    --border: aqua;
 }
 
 .list {
