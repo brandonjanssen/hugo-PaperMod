@@ -5,10 +5,78 @@
     margin: auto;
     padding: var(--gap);
 }
+/* from here to ------------------------------------- */
+/* from here to ------------------------------------- */
+/* from here to ------------------------------------- */
+/* from here to ------------------------------------- */
+/* from here to ------------------------------------- */
 
 .page-header h1 {
+    background-color: #00E0CA;
+    display: flex;
+    align-items: left;
+    justify-content: left;
     font-size: 40px;
+    color: transparent;
+    background: conic-gradient(
+    /* #827ada 12%,  */
+    #7e53da 25%, 
+    /* #936beb 35%,  */
+    /* #d5fa8b 45%,  */
+    #c6f16f 45%, 
+    /* #eb8c8c 55%,  */
+    #e78181 85%, 
+    /* #93c8f3 70%, */
+    #77b2e2 47%, 
+    #f19257 45%);
+    background-size: 50%;
+    background-clip: text;  
+    -webkit-background-clip: text;
+    
+    animation: expand-rev 2.5s ease forwards;
+    
+    cursor: pointer;
 }
+.page-header h1:hover {
+        animation: expand 2.5s ease forwards;
+}
+@keyframes expand {
+        0% {
+        background-size: 50%;
+        background-position: 0 0;
+        }
+        20% {
+        background-size: 55%;
+        background-position: 0 1em;
+        }
+        100% {
+        background-size: 80%;
+        background-position: -10em -4em;
+        }
+}
+@keyframes expand-rev {
+        0% {
+        background-size: 80%;
+        background-position: -10em -4em;
+        }
+        20% {
+        background-size: 55%;
+        background-position: 0 1em;
+        }
+        100% {
+        background-size: 50%;
+        background-position: 0 0;
+        }
+} 
+
+
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+
 
 .pagination {
     display: flex;
