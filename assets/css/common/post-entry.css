@@ -59,35 +59,39 @@
 /* from here too  ------------------------------*/
 /* from here too  ------------------------------*/  
 .entry-header h2 {
+    color: #00e0ca;
     display: flex;
-    align-items: center;
-    justify-content: left;
-    /* height: 100vh; */
-    /* width: 100vw; */
-    margin: 0;
-    padding: 0;
+    /* align-items: center; */
+    /* justify-content: left; */
+    /* margin: 0; */
+    /* padding: 0; */
     font-size: 24px;
-    line-height: 1.0;
+    line-height: 1.6;
     /* line-height: 1.3; */
-    color: transparent;
-    background: conic-gradient(
-        #5446f5 12%, 
-        #f705a6 12%, #7e51e0 33%, 
-        #ffe606 33%, #92ca22 55%, 
-        white 55%, #da2525 70%, 
-        aqua 70%, brown 87%, 
-        #df7331 87%);
-    background-size: 50%;
-    background-clip: text;  
-    -webkit-background-clip: text;
+    /* color: transparent; */
+    /* background: conic-gradient( */
+        /* #eee5e9 12%,  */
+        /* #00e0ca 86%, */
+        /* #3f88c5 53%,  */
+        /* #63458a 95%,  */
+        /* #9a48d0 75%, */
+          /* #da2525 80%);   */
+        /* #00E0CA 1%,  */
+        /* #ff1174 87%,  */
+        /* #df7331 0%); */
+    /* background-size: 7%; */
+    /* background-clip: text;   */
+    /* -webkit-background-clip: text; */
+    -webkit-text-stroke-width: 1.6px; 
+	-webkit-text-fill-color: transparent; 
     
-    animation: expand-rev 0.5s ease forwards;
+    /* animation: expand-rev 0.5s ease forwards; */
     
     cursor: pointer;
     
 }
       
-.entry-header h2:hover {
+/* .entry-header h2:hover {
     animation: expand 0.5s ease forwards;
     }
       
@@ -119,7 +123,7 @@
         background-size: 50%;
         background-position: 0 0;
         }
-}     
+}      */
 
 
 
