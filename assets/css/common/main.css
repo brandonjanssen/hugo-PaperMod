@@ -54,7 +54,9 @@ pre {
     position: absolute;
     top: 4px;
     right: 4px;
+    /* color: #ffffff; */
     color: #ffffffcc;
+    /* background: #ff0000; */
     background: #4e4e4ecc;
     border-radius: var(--radius);
     padding: 0 5px;
@@ -65,5 +67,5 @@ pre {
 div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
-    /* color: #ffffff; */
+    color: #ffffff;
 }

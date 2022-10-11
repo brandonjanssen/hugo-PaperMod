@@ -43,11 +43,13 @@ button#theme-toggle {
 
 body.dark #moon {
     vertical-align: middle;
-    display: none;
+    /* display: none; */
+    color:#00E0CA ;
 }
 
 body:not(.dark) #sun {
     display: none;
+    
 }
 
 #menu {

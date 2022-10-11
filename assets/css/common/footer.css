@@ -1,8 +1,12 @@
-.footer,
+.footer{
+    color: var(--secondary);
+    font-size: 12px;  
+}
 .top-link {
     font-size: 12px;
-    color: var(--secondary);
+    color:#00E0CA;
 }
+
 
 .footer {
     max-width: calc(var(--main-width) + var(--gap) * 2);
@@ -49,9 +53,13 @@
     filter: drop-shadow(0px 0px 0px var(--theme));
 }
 
-.footer a:hover,
+.footer a:hover{
+    color: var(--primary); 
+}
 .top-link:hover {
     color: var(--primary);
+    border : solid 1px ;
+    box-shadow:  2px 2px  #03524a,  4px 4px  #00796d,  6px 6px  #00c0ad;
 }
 
 .top-link:focus,

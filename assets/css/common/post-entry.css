@@ -39,9 +39,11 @@
     padding: var(--gap);
     background: var(--entry);
     background: var(--entry);
-    border-radius: var(--radius);
+    border-radius: 25px;
+    /* border-radius: var(--radius); */
     transition: transform 0.1s;
     border: 1px solid var(--border);
+    box-shadow:  2px 2px  #03524a,  4px 4px  #00796d,  6px 6px 6px #00c0ad;
 }
 
 .post-entry:active {
@@ -51,21 +53,93 @@
 .tag-entry .entry-cover {
     display: none;
 }
-
+/* from here too ------------------------------ */
+/* from here too  ------------------------------*/
+/* from here too  -------------------------------*/
+/* from here too  ------------------------------*/
+/* from here too  ------------------------------*/  
 .entry-header h2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* height: 100vh; */
+    /* width: 100vw; */
+    margin: 0;
+    padding: 0;
     font-size: 24px;
-    line-height: 1.3;
+    line-height: 1.0;
+    /* line-height: 1.3; */
+    color: transparent;
+    background: conic-gradient(
+        #5446f5 12%, 
+        #f705a6 12%, #7e51e0 33%, 
+        #ffe606 33%, #92ca22 55%, 
+        white 55%, #da2525 70%, 
+        aqua 70%, brown 87%, 
+        #df7331 87%);
+    background-size: 50%;
+    background-clip: text;  
+    -webkit-background-clip: text;
+    
+    animation: expand-rev 0.5s ease forwards;
+    
+    cursor: pointer;
+    
+}
+      
+.entry-header h2:hover {
+    animation: expand 0.5s ease forwards;
+    }
+      
+@keyframes expand {
+        0% {
+        background-size: 50%;
+        background-position: 0 0;
+        }
+        20% {
+        background-size: 55%;
+        background-position: 0 1em;
+        }
+        100% {
+        background-size: 325%;
+        background-position: -10em -4em;
+        }
 }
 
+@keyframes expand-rev {
+        0% {
+        background-size: 325%;
+        background-position: -10em -4em;
+        }
+        20% {
+        background-size: 55%;
+        background-position: 0 1em;
+        }
+        100% {
+        background-size: 50%;
+        background-position: 0 0;
+        }
+}     
+
+
+
+/* Toooo here ------------------------------------------ */
+/* Toooo here ------------------------------------------ */
+/* Toooo here ------------------------------------------ */
+/* Toooo here ------------------------------------------ */
+/* Toooo here ------------------------------------------ */
+/* Toooo here ------------------------------------------ */
+/* Toooo here ------------------------------------------ */
 .entry-content {
     margin: 8px 0;
-    color: var(--secondary);
+    color: wheat;
+    /* color: var(--secondary); */
     font-size: 14px;
     line-height: 1.6;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
 }
 
 .entry-footer {
