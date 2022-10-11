@@ -60,6 +60,8 @@
 /* from here too  ------------------------------*/  
 .entry-header h2 {
     color: #00e0ca;
+    text-shadow: 3px 3px 20px #00E0CA,
+    -2px 1px 30px wheat;
     /* background-color: #9a48d0; */
     display: flex;
     /* align-items: center; */
@@ -85,7 +87,7 @@
     /* background-clip:#9a48d0 ;   */
     /* -webkit-background-clip: text; */
     /* -webkit-background-clip: #9a48d0; */
-    -webkit-text-stroke-width: 1.3px; 
+    -webkit-text-stroke-width: 1.1px; 
 	-webkit-text-fill-color: transparent; 
     -webkit-text-fill-color: wheat;
     /* animation: expand-rev 0.5s ease forwards; */
