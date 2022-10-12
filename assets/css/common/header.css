@@ -36,7 +36,7 @@
     margin-inline-end: 8px;
 }
 
-button#theme-toggle {
+/* button#theme-toggle {
     font-size: 26px;
     margin: auto 4px;
 }
@@ -44,13 +44,13 @@ button#theme-toggle {
 body.dark #moon {
     vertical-align: middle;
     /* display: none; */
-    color:#00E0CA ;
-}
+    /* color:#00E0CA ; */
+/* } */
 
-body:not(.dark) #sun {
-    display: none;
+/* body:not(.dark) #sun { */
+    /* display: none; */
     
-}
+/* } */ 
 
 #menu {
     list-style: none;

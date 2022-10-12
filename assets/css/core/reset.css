@@ -100,18 +100,18 @@ textarea {
     outline: 0;
 }
 
-button,
+/* button,
 input[type=button],
 input[type=submit] {
     cursor: pointer;
-}
+} */
 
 input:-webkit-autofill,
 textarea:-webkit-autofill {
     box-shadow: 0 0 0 50px var(--theme) inset;
 }
 
-img {
+/* img {
     display: block;
     max-width: 100%;
-}
+} */
