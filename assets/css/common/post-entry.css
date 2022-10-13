@@ -84,6 +84,7 @@
 .first-entry {
     font-size: 34px;
     line-height: 1.3;
+    /* color: #e09d00; */
 }
 
 .first-entry .entry-content {
@@ -98,6 +99,7 @@
 
 .home-info .entry-content {
     -webkit-line-clamp: unset;
+    color: #bebebe;
 }
 
 .post-entry {
@@ -219,7 +221,7 @@
 }
 
 .entry-footer {
-    color: #CA920E;
+    color: #e09d00;
     /* color: var(--secondary); */
     font-size: 13px;
 }

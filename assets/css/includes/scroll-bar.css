@@ -1,6 +1,7 @@
 /* from reset */
 ::-webkit-scrollbar-track {
-    background: 0 0;
+    background: #00121F;
+    /* background: 0 0; */
 }
 
 .list:not(.dark)::-webkit-scrollbar-track {
@@ -8,7 +9,8 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--tertiary);
+    background: #103652;
+    /* background: var(--tertiary); */
     border: 5px solid var(--theme);
     border-radius: var(--radius);
 }
@@ -18,7 +20,8 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary);
+    background: #00E0CA;
+    /* background: var(--secondary); */
 }
 
 ::-webkit-scrollbar:not(.highlighttable, .highlight table, .gist .highlight) {
@@ -32,7 +35,8 @@
 
 .post-content :not(table) ::-webkit-scrollbar-thumb {
     border: 2px solid var(--hljs-bg);
-    background: #717175;
+    background: #00E0CA;
+    /* background: #717175; */
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb:hover {
@@ -45,7 +49,7 @@
 }
 
 .gist table::-webkit-scrollbar-thumb:hover {
-    background: #707070;
+    background: #00E0CA;
 }
 
 .post-content table::-webkit-scrollbar-thumb {
@@ -59,5 +63,7 @@
     ::-webkit-scrollbar {
         width: 19px;
         height: 11px;
+        /* width: 19px;
+        height: 11px; */
     }
 }
