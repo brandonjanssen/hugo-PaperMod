@@ -45,7 +45,7 @@
 
     /* This is for text color not headings */
     --content: #ffffff;
-    --content: #FDEFC2;
+    /* --content: #FDEFC2; */
     /* --content: #C4CAE3; */
     --hljs-bg: #203849;
     /* --hljs-bg: #10293b; */
