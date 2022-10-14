@@ -29,7 +29,7 @@
     --tertiary: #061A28;
 
     /* This is for text color not headings */
-    --content: #C4CAE3;
+    --content: #c4c4c4;
     --hljs-bg: #203849;
     /* --hljs-bg: #10293b; */
     --code-bg: #0a2233;
@@ -44,7 +44,7 @@
     --tertiary: #061A28;
 
     /* This is for text color not headings */
-    --content: #ffffff;
+    --content: #c4c4c4;
     /* --content: #FDEFC2; */
     /* --content: #C4CAE3; */
     --hljs-bg: #203849;
