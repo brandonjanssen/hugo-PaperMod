@@ -223,7 +223,9 @@
 .post-content hr {
     margin: 30px 0;
     height: 2px;
-    background: var(--tertiary);
+    background: #2b2b2b;
+    /* background: #7a7a7a; */
+    /* background: var(--tertiary); */
     border: 0;
 }
 
