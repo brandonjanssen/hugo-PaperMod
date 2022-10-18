@@ -271,7 +271,7 @@
 
 .toc {
     margin: 0 2px 40px 2px;
-    border: 1px solid var(--border);
+    /* border: 1px solid var(--border); */
     /* background: var(--code-bg); */
     background-color: #0A2233;
     border-radius: var(--radius);
