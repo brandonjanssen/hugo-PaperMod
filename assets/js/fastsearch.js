@@ -48,7 +48,9 @@ window.onload = function () {
             }
         }
     };
-    xhr.open('GET', "../index.json");
+    // xhr.open('GET', "../index.json");
+    xhr.open("GET", "https://www.jantech.xyz/index.json");
+
     xhr.send();
 }
 
