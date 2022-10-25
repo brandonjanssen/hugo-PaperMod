@@ -83,16 +83,71 @@
 }
 
 .pagination a {
-    color: var(--theme);
+    /* color: var(--theme); */
     font-size: 13px;
     line-height: 36px;
-    background: var(--primary);
-    border-radius: calc(36px / 2);
-    padding: 0 16px;
+    /* background: var(--primary); */
+    /* border-radius: calc(36px / 2); */
+    /* padding: 0 16px; */
+    display: block;
+    padding: 3px 10px;
+    color: #00E0CA;
+    background: #0a2233;
+    /* background: var(--tertiary); */
+    /* background-size: 50%; */
+    /* background: conic-gradient(
+        #10476e 25%, #091d29 25%, 
+        #082130 25%, #143447 25%,);; */
+    border: solid 1px;
+    border-radius: 25px;
+    border-color: #00E0CA;
+     /* box-shadow:  5px 5px  #03524a,  10px 10px  #00796d,  15px 15px  #00c0ad; */
+    box-shadow:  2px 2px  #03524a,  4px 4px  #00796d,  6px 6px 6px #00c0ad;
+    transition: transform 0.1s;
 }
 
 .pagination .next {
     margin-inline-start: auto;
+    display: block;
+    padding: 3px 10px;
+    color: #00E0CA;
+    background: #0a2233;
+    /* background: var(--tertiary); */
+    /* background-size: 50%; */
+    /* background: conic-gradient(
+        #10476e 25%, #091d29 25%, 
+        #082130 25%, #143447 25%,);; */
+    border: solid 1px;
+    border-radius: 25px;
+    border-color: #00E0CA;
+     /* box-shadow:  5px 5px  #03524a,  10px 10px  #00796d,  15px 15px  #00c0ad; */
+    box-shadow:  2px 2px  #03524a,  4px 4px  #00796d,  6px 6px 6px #00c0ad;
+    transition: transform 0.1s;
+}
+.pagination .next:hover {
+    background-color: #00121F;
+    color: #00E0CA;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    border-style: 1px solid #00E0CA;
+    border-radius: 50px;
+    /* text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, */
+             /* 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff; */
+    transform: scale(1.50);
+
+
+}
+.pagination a:hover {
+    background-color: #00121F;
+    color: #00E0CA;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    border-style: 1px solid #00E0CA;
+    border-radius: 50px;
+    /* text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, */
+             /* 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff; */
+    transform: scale(1.50);
+    
 }
 
 .social-icons {

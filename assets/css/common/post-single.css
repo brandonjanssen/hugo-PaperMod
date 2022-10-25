@@ -193,6 +193,63 @@
     margin-bottom: 0;
 }
 
+/* ############ MyTable Starts here ################### */
+table {
+    border-collapse: collapse;
+    border: 1px solid #00E0CA;
+    border-radius: var(--radius);
+    text-align: center;
+      vertical-align: middle;
+  }
+  caption {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    color: #ca3a3a;
+    margin-bottom: 16px;
+  }
+  thead {
+    background-color: #00121F;
+    color: #00E0CA;
+    font-size: 1.875rem;
+      text-transform: uppercase;
+      letter-spacing: 2%;
+  }
+  
+  
+  th, td {
+    border: 1px solid #00E0CA;
+    border-radius: var(--radius);
+    padding: 8px;
+  }
+  thead th {
+    width: 10%;
+    /* width: 25%; */
+  }
+  .cell-highlight {
+    background-color: gold;
+    font-weight: bold;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #00121F;
+    color: #00E0CA;
+    font-size: 0.975rem;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #00121F;
+    color: #00E0CA;
+    font-size: 0.975rem;
+  }
+  tbody th {
+    background-color: #0e51d8;
+    color: #0c0c0c;
+    text-align: left;
+  }
+  tbody tr:nth-child(even) th {
+    background-color: #385494;
+  }
+/* ############### WHERE TABLE ENDS ################ */
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
